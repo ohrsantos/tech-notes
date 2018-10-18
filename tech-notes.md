@@ -18,17 +18,12 @@ git remote add origin https://github.com/ohrsantos/tech-notes.git
 git push -u origin master
 
 
-### To check the status
-
-git status  
-
-
-### To see what is about to be *committed* using git diff with the --cached option
+### To see what is about to be *committed* using git diff with the *--cached* option
 
 git diff --cached
 
 
-### To see what is about to be *added* using git diff without the --cached option
+### To see what is about to be *added* using git diff without the *--cached* option
 
 git diff 
 
