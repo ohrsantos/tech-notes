@@ -32,6 +32,10 @@ git diff
 
 git status
 
+#### more compact way
+
+git status -s
+
 ### To unstage
 
 git checkout -- <file(s) or .>
@@ -39,3 +43,17 @@ git checkout -- <file(s) or .>
 ### Revert and delete do previous commit point
 
 git reset --hard <commit id>
+
+### To create a new branch
+
+git checkout -b <branch name>
+  
+### Merge to master branch
+
+git checkout master or git master
+git merge <branch from>
+
+### Delete a branch
+
+git branch -D <branch name>
+  
