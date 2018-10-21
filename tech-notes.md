@@ -48,12 +48,23 @@ git reset --hard <commit id>
 
 git checkout -b <branch name>
   
-### Merge to master branch
+### To merge to master branch
 
 git checkout master or git master
 git merge <branch from>
 
-### Delete a branch
+### To delete a branch
 
 git branch -D <branch name>
   
+### To keep the file in your working tree but remove it from your staging area  
+
+git rm --cached 
+
+### To remove it from your tracked files (more accurately, remove it from your staging area) and then commit
+
+git rm
+
+### To remove a *changed* file from your tracked files
+
+git rm -f
