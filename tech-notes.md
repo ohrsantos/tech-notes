@@ -31,3 +31,11 @@ git diff
 ### To get a brief summary of the situation
 
 git status
+
+### To unstage
+
+git checkout -- <file(s) or .>
+
+### Revert and delete do previous commit point
+
+git reset --hard <commit id>
